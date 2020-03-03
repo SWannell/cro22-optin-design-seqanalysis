@@ -209,3 +209,14 @@ class SeqAnalysis:
         print("the test statistic is z= {:.2f}".format(current_z),
               ", p = {:.2f}".format(norm.cdf(current_z)), '\n',
               'the relative % change is ', "%.0f%%" % (pct_uplift*100))
+        
+
+# Tests
+if __name__ == "__main__":
+    two_month_vol, cvr = 3000, 0.214
+    target = int(two_month_vol * cvr)
+    ttl = 'CR046 email opt-in wording'
+    seq = SeqAnalysis(target, ttl)  # returns the plot!!
+    seq.cvr_plot(ttl)
+    seq.crossed()
+    seq.summary()
