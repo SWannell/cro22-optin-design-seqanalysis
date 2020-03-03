@@ -9,6 +9,6 @@ Run fetchdata and seqanalysis scripts daily / regularly, to monitor test progres
 ### After test
 
 1. Download SGLBL and RGLBL from SSRS
-- Run lbl_munge to remove the PII
-- Run lbl_ga_join to join with the GA data (linking transaction data to test cell buckets)
-- Run tests to get the test statistics.
+2. Run lbl_munge to remove the PII
+3. Run lbl_ga_join to join with the GA data (linking transaction data to test cell buckets)
+4. Run tests to get the test statistics.
