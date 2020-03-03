@@ -1,5 +1,6 @@
-# cro22-optin-design-seqanalysis
-CRO22 email opt-in design test, sequential analysis
+# Prompt test: CRO22 email opt-in design test
+
+Based on [the sequential analysis repo](https://github.com/britishredcrosssociety/sequential-analysis).
 
 ### During test
 
